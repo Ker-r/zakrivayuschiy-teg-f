@@ -57,7 +57,7 @@
   margin-block-end: 50px;
 }
 
-.post:last-of-type{
+.post:last-of-type {
   margin-block-end: 0;
 }
 
@@ -309,7 +309,6 @@
   position: relative;
   transition: box-shadow 0.3s ease;
   overflow: hidden;
-  cursor: pointer;
 }
 
 .button__save::before {
@@ -430,7 +429,7 @@ dialog::backdrop {
   fill: #fff;
   mix-blend-mode: difference;
   z-index: 2;
-  position: relative; 
+  position: relative;
 }
 
 /* Картинка с котом  */
