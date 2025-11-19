@@ -184,7 +184,7 @@
   display: flex;
   justify-content: end;
   margin-inline-end: 25px;
-  margin-block-end: 25px;
+  margin-block-end: 15px;
   gap: 6px;
 }
 
@@ -321,9 +321,16 @@
   position: relative;
 }
 
-.icon__save {
+.save__content {
+  display: inline-block;
   width: 21px;
   height: 21px;
+  flex-shrink: 0;
+}
+
+.icon__save {
+  width: 100%;
+  height: 100%;
 }
 
 /* Всплывающее окошко */
@@ -435,7 +442,7 @@ dialog::backdrop {
     padding-inline: 20px 18px;
   }
 
-  .icon__save {
+  .save__content {
     width: 28px;
     height: 28px;
   }
